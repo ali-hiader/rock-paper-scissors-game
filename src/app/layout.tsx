@@ -9,7 +9,7 @@ const barlowSemiCondensed = Barlow_Semi_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Game",
+  title: "By Ali Haider",
   description: "Created by Muhammad Ali Haider",
 };
 

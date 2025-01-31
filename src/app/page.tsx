@@ -27,14 +27,14 @@ function HomePage() {
   const [userSelected, setUserSelected] = useState<string | null>(null);
   const [houseSelected, setHouseSelected] = useState<string | null>(null);
   const [winner, setWinner] = useState<string | null>(null);
-  const [score, setScore] = useState<string[]>(["win", "win", "win"]);
+  const [score, setScore] = useState<string[]>([]);
   // console.log(score);
   function handleHouseSelecting() {
     return new Promise((resolve) => {
       setTimeout(() => {
         const randomTdx = Math.floor(Math.random() * 3);
         resolve(gameRoles[randomTdx]);
-      }, 1000);
+      }, 500);
     });
   }
 
