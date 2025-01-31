@@ -4,8 +4,8 @@ interface Props {
 }
 function WinnerPage({ winner: result, reset }: Props) {
   return (
-    <hgroup className="place-self-center flex justify-center flex-col gap-1 animate__animated animate__flash ">
-      <h2 className="text-3xl font-semibold uppercase text-center tracking-wider">
+    <hgroup className="place-self-center col-span-2 md:col-span-1 order-last md:order-none flex justify-center items-center flex-col gap-1 animate__animated animate__flash ">
+      <h2 className="md:text-3xl text-5xl font-semibold uppercase text-center tracking-wider">
         {result === "draw" && "draw"}
         {result === "win" && "you win"}
         {result === "lose" && "you lose"}
@@ -18,7 +18,7 @@ function WinnerPage({ winner: result, reset }: Props) {
             : result === "draw"
             ? `text-amber-500`
             : "text-emerald-600"
-        } bg-white px-8 text-sm py-2 font-semibold rounded-md uppercase`}
+        } bg-white md:px-8 px-10 w-fit  md:text-sm text-lg py-2  font-semibold rounded-md uppercase`}
       >
         {result === "lose" ? `try again` : "play again"}
       </button>

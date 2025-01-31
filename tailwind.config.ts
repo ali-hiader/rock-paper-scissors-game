@@ -13,7 +13,8 @@ export default {
       // 	triangle: 'url('/public/images/bg-triangle.svg')'
       // },
       boxShadow: {
-        shadow: "rgba(0, 0, 0, 0.1) 2px 30px 0px -22px inset",
+        shadow:
+          "rgba(0, 0, 0, 0.12) 2px 30px 0px -22px inset, rgba(0, 0, 0, 0.03) 20px -5px 0px -5px inset",
         bigShadow:
           "0 0px 0px 40px rgba(255, 255, 255, .04), 0 0px 0px 80px rgba(255, 255, 255, 0.03), 0 0px 0px 140px rgba(255, 255, 255, 0.02)",
       },

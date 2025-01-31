@@ -78,14 +78,16 @@ function HomePage() {
   }
 
   return (
-    <main className="w-full grid grid-rows-[auto_1fr] py-7">
+    <main className="w-full relative max-h-[1200px] max-w-[1400px] grid grid-rows-[auto_1fr] py-7 px-7">
       <MainHeader score={score} />
 
       {userSelected ? (
         <section
           className={`${
-            winner ? "grid-cols-3" : "grid-cols-2"
-          } min-w-[50vw] mx-auto relative grid  py-6`}
+            winner
+              ? "md:grid-cols-3 max-w-lg grid-cols-2 md:grid-rows-1 grid-rows-[auto_1fr]"
+              : "grid-cols-2"
+          } md:min-w-[700px] max-h-96 mx-auto relative grid md:gap-0 gap-10 py-6`}
         >
           <UserSelectedPage winner={winner} userSelected={userSelected} />
           {winner ? <WinnerPage winner={winner} reset={resetGame} /> : null}

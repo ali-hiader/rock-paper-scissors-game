@@ -7,7 +7,7 @@ import Arrow from "./Icons/arrow";
 const RulesPage = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
-      <button className="absolute bottom-6 right-6 uppercase tracking-wider border border-white px-8 py-1.5 rounded-md text-sm">
+      <button className="absolute w-fit bottom-6 sm:right-6 right-1/2 sm:translate-x-0 translate-x-1/2 uppercase tracking-wider border border-white px-8 py-1.5 rounded-md text-sm">
         rules
       </button>
     </Dialog.Trigger>

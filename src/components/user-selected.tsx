@@ -8,8 +8,8 @@ interface Props {
 
 function UserSelectedPage({ userSelected, winner }: Props) {
   return (
-    <div className="grid grid-rows-[1fr_4fr]">
-      <h2 className="flex items-end tracking-widest justify-center text-xl font-semibold uppercase">
+    <div className="grid grid-rows-[1fr_4fr] gap-4">
+      <h2 className="flex items-end md:text-xl tracking-widest justify-center font-semibold uppercase">
         You Picked
       </h2>
       {userSelected === "rock" && (
