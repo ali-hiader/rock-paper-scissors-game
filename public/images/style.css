@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
+section {
+  background-color: #192648;
+  height: 100vh;
+  margin: 0 auto;
+}
+.rps {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.heading-box {
+  padding: 2rem;
+  display: flex;
+  gap: 20rem;
+  border: 2px solid #495a76;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 12.8rem;
+  position: relative;
+  justify-content: space-between;
+}
+.score-div {
+  background-color: #fff;
+  padding: 2.4rem 3.6rem;
+  border-radius: 20px;
+}
+.score {
+  color: #606e85;
+  padding-bottom: 1.2rem;
+  font-weight: 600;
+}
+.num {
+  color: #565469;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.iconplustri {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 9.6rem;
+  height: 9.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+/* .sci {
+  background-image: radial-gradient(#fff 50%, #eea61d 20%);
+  background-image: radial-gradient(#fff 50%, #ec9e0d 20%, #eba822); */
+/* } */
+/* .paper {
+  background-image: radial-gradient(#fff 50%, #4764f4 20%, #5670f5);
+} */
+.outer-line {
+  width: 13rem;
+  height: 13rem;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px #000 inset;
+  position: absolute;
+}
+.papers {
+  border: 2rem solid #4764f4;
+  top: 35%;
+  right: 55%;
+}
+.rocks {
+  border: 2rem solid #db2d4d;
+  top: 70%;
+}
+.scis {
+  border: 2rem solid #ec9e0d;
+  top: 35%;
+  left: 55%;
+}
+.triangle {
+  stroke-width: 1rem;
+}
