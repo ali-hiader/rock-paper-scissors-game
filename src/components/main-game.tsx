@@ -8,7 +8,7 @@ interface Props {
 
 function MainGame({ gameHandler }: Props) {
   return (
-    <section className="w-1/2 place-self-center h-96 mx-auto relative grid grid-cols-2 gap-x-32 sm:gap-x-0 items-center justify-center">
+    <section className="w-[50%] lg:w-[45%] place-self-center h-96 mx-auto relative grid grid-cols-2 gap-x-32 sm:gap-x-0 items-center justify-center">
       <MainGeneralIcon
         handleSelection={() => gameHandler("paper")}
         iconName="paper"

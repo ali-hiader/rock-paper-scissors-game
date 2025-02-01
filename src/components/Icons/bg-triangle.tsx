@@ -1,8 +1,8 @@
 function Triangle() {
   return (
-    <div className="absolute -z-10 size-fit top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%]">
+    <div className="absolute size-fit -z-10 top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%]">
       <svg
-        className="md:w-full sm:w-48 w-44"
+        className="md:w-full w-44"
         viewBox="0 0 313 278"
         xmlns="http://www.w3.org/2000/svg"
         width="100%"

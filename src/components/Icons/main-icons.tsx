@@ -32,14 +32,14 @@ function MainGeneralIcon({
     <button
       onClick={handleSelection}
       className={`${buttonCss} ${colorCss} ${
-        selected ? "md:p-6 sm:p-5 p-4" : "md:p-3.5 lg:p-4 p-3"
+        selected ? "md:p-6 sm:p-5 p-4" : "md:p-3.5 lg:p-5 p-3"
       } place-self-center bg-gradient-to-tl w-fit rounded-full cursor-pointer animate__animated`}
     >
       <div
         className={`${
           selected
-            ? "md:size-44 sm:size-36 size-28"
-            : "md:size-[110px] sm:size-[100px] size-[90px]"
+            ? "lg:size-48 md:size-44 sm:size-36 size-28"
+            : "md:size-[120px] sm:size-[100px] size-[90px]"
         } shadow-shadow flex items-center justify-center rounded-full bg-white`}
       >
         {iconName === "rock" && (
